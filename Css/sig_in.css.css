@@ -1,0 +1,238 @@
+@font-face {
+    font-family: 'yekan';
+    src: url("../fonts/yekan.eot?#") format("embedded-opentype"), url("../fonts/yekan.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: yekan;
+
+}
+
+body {
+    background: white;
+    background-image: url("../img/background.jpg.jpg");
+    height: 100vh;
+}
+
+.screen {
+    width: 100%;
+    height: 100vh;
+    margin: 1px auto;
+    background: #196db64f;
+    background-size: 100%;
+    box-shadow: 0 0 10px 10px white;
+}
+
+.input_screen {
+    width: 40%;
+    height: 450px;
+    background: white;
+    margin-left: 30%;
+    position: absolute;
+    margin-top: 3px;
+    box-shadow: 0 0 2px 2px white;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 19px;
+    color: gray;
+}
+
+.name_1 {
+    width: 60%;
+    height: 38px;
+    background: #cdbebe;
+    margin-left: 20%;
+    margin-top: 10px;
+    overflow: hidden;
+    border: 1px solid dodgerblue;
+    border-radius: 7px;
+    box-shadow: 0 0 2px 2px white;
+
+}
+
+.name_1:hover {
+    background: white;
+    transition: 0.9s;
+}
+
+.email_1 {
+    width: 60%;
+    height: 38px;
+    margin-left: 20%;
+    margin-top: 15px;
+    overflow: hidden;
+    border: 1px solid dodgerblue;
+    border-radius: 7px;
+    box-shadow: 0 0 2px 2px white;
+    background: #cdbebe;
+}
+
+.email_1:hover {
+    background: white;
+    transition: 0.9s;
+
+}
+
+.pass_1 {
+    width: 60%;
+    height: 38px;
+    background: #cdbebe;
+    margin-left: 20%;
+    margin-top: 15px;
+    overflow: hidden;
+    border-radius: 7px;
+    border: 1px solid dodgerblue;
+    box-shadow: 0 0 2px 2px white;
+}
+
+.pass_1:hover {
+    background: white;
+    color: red;
+    transition: 0.9s;
+}
+
+
+.pass_config {
+    width: 60%;
+    height: 38px;
+    background: #cdbebe;
+    margin-left: 20%;
+    margin-top: 15px;
+    overflow: hidden;
+    border: 1px solid dodgerblue;
+    border-radius: 7px;
+    box-shadow: 0 0 2px 2px white;
+}
+
+.pass_config:hover {
+    background: white;
+    transition: 0.9s;
+}
+
+input {
+    width: 100%;
+    height: 38px;
+    text-align: center;
+    color: dodgerblue;
+    overflow: hidden;
+    font-family: yekan;
+    background: none;
+
+}
+
+
+.send {
+    width: 106px;
+    height: 45px;
+    background: dodgerblue;
+    margin-left: 41%;
+    box-shadow: 0 0 5px 5px gray;
+    border-radius: 5px;
+    margin-top: 29px;
+}
+
+.submit {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 17px;
+
+}
+
+.send:hover {
+    background: #716e6e;
+    color: red;
+}
+
+input[type=password]:focus {
+    outline: none;
+    color: red;
+}
+
+input[type=text]:focus {
+    outline: none;
+
+}
+
+input[type=email]:focus {
+    outline: none;
+}
+
+input[type=submit]:focus {
+    outline: none;
+}
+
+/*This all logo users and web logos
+this register pages login this comments*/
+#user_s {
+
+
+    margin-top: 4px;
+    margin-left: 33px;
+    color: #c0a8a8;
+    font-size: 50px;
+}
+
+#name_logo {
+    position: absolute;
+    color: gray;
+    margin-left: 56%;
+    margin-top: 6px;
+    font-size: 25px;
+}
+
+#email_logo {
+    position: absolute;
+    color: gray;
+    margin-left: 55%;
+    margin-top: 6px;
+    font-size: 22px;
+}
+
+#lock_logo {
+    position: absolute;
+    color: gray;
+    margin-left: 55%;
+    margin-top: 6px;
+    font-size: 28px;
+}
+
+#lock_logo_c {
+    position: absolute;
+    color: gray;
+    margin-left: 55%;
+    margin-top: 6px;
+    font-size: 28px;
+}
+
+a {
+    color: dodgerblue;
+    text-decoration: none;
+    direction: rtl;
+    margin-left: 200px;
+    font-size: 17px;
+    margin-top: 30px;
+
+}
+
+h4 {
+    font-size: 5px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+h4:hover {
+    border-bottom: 2px solid blue;
+}
+
+/*
+.text{
+  
+    top:380px;
+    margin-right: 80%;
+
+}
+*/

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="../Css/style_login.css">
+    <link rel="stylesheet" href="../mobile/mobile.css" media="only screen and() and ()">
+    <!--THis tag link to connect css files -->
+    <link rel="stylesheet" href="../Css/style.css">
+    <!--added fonts -->
+    <link rel="stylesheet" href="../Css/font-awesome.css">
+    <!--head closed tags-->
+</head>
+<body>
+<div class="filter"></div>
+<div class="login_page">
+    <div class="page_input">
+        <h3>ورود به سایت</h3>
+        <i class="fa fa-user" id="logo_user"></i>
+        <form action="../php/index.php" method="post">
+            <div class="input_1">
+                <label>
+                    <input type="text" placeholder="نام کاربری خودرا وارد کنید" name="user">
+                </label><i class="fa fa-user"
+                           id="user_login"></i>
+            </div>
+            <div class="input_2">
+                <label>
+                    <input type="password" placeholder="پسورد خودرا وارد کنید " name="password">
+                </label><i class="fa fa-lock"
+                           id="user_password"></i>
+            </div>
+            <input type="submit" class="btn_login" value="ورود"><br>
+            <label>
+                <input type="checkbox" class="check_box">
+            </label><h4>مرا بخاطر بسپار</h4>
+        </form>
+    </div>
+    <a href="../index.htm" target="_blank"
+       style="color:rgb(29, 119, 236); direction: rtl; position: absolute; ; margin-left: 56%; margin-top: 28%; display: inline-block;">
+        <h2>
+            بازگشت به صفحه </h2></a>
+    <a href="login.htm" target="_blank" style="display: inline-block"></a>
+    <h5>
+        <a target="_blank" href="../sqi_in/registers.html" style="color: dodgerblue">
+            ثبت نام نکردی ؟
+        </a>
+    </h5>
+
+
+    <!--
+    <div class="icon">
+    <i class="fa fa-linux" style="color:gray; margin:2px auto"></i><i class="fa fa-windows"></i>
+    </div>
+    -->
+</div>
+</body>
+</html>
