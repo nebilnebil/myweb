@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "yekan";
+    src: url("../fonts/yekan.eot?#") format("embedded-opentype"), url("../fonts/yekan.ttf") format("truetype")
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+}
+
+body {
+    background: white;
+}
+
+.screen_f {
+    width: 98%;
+    height: 100vh;
+    margin: 2px auto;
+    background: #ffffff;
+}
+
+.concat {
+    width: 600px;
+    height: 500px;
+    margin: 50px auto;
+    background: #f2efef;
+    box-shadow: 0 0 2px 2px #ddd2d2;
+}
+
+.input_1, .input_2 {
+    width: 50%;
+    height: 37px;
+    border: 1px solid #2fbf8d;
+    margin-left: 145px;
+    margin-top: 20px;
+    overflow: hidden;
+    background: white;
+}
+
+.input_2 {
+}
+
+.input_1 {
+    margin-top: 50px;
+}
+
+#admin_img {
+    color: #80d2ad;
+    font-size: 70px;
+    margin-left: 46%;
+}
+
+input {
+    width: 86%;
+    height: 37px;
+    text-align: center;
+    font-size: 17px;
+}
+
+input[type=email]:focus {
+    outline: none;
+}
+
+input[type=password]:focus {
+    outline: none;
+}
+
+input[type=submit]:focus {
+    outline: none;
+}
+
+.login_admin {
+    width: 110px;
+    background: #2fbf8d;
+    height: 40px;
+    margin-left: 40%;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+#lock, #email {
+    color: gray;
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+#lock {
+    font-size: 25px;
+    margin-left: 13px;
+}
+
+a {
+    display: inline-block;
+    color: #1fc0db;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 70%;
+}
+
+a:hover {
+    border-bottom: 2px solid blue;
+}

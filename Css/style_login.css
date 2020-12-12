@@ -1,0 +1,210 @@
+@font-face {
+    font-family: 'yekan';
+    src: url("../fonts/yekan.eot?#") format("embedded-opentype"), url("../fonts/yekan.ttf") format("truetype");
+}
+
+body {
+    background: white;
+    direction: rtl;
+}
+
+* {
+    background: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: yekan;
+}
+
+.login_page {
+    width: 99%;
+    height: 100vh;
+    background-image: url("../img/background.jpg.jpg");
+    margin: 7px auto;
+    box-shadow: 0 0 5px 5px white;
+    background-size: 100%;
+}
+
+.page_input {
+    width: 40%;
+    height: 450px;
+    background: white;
+    margin-left: 30%;
+    margin-top: 40px;
+    position: absolute;
+    border-radius: 8px;
+    box-shadow: 0 0 2px 2px white;
+}
+
+#logo_user {
+    color: #c0a8a8;
+    font-size: 60px;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 17px;
+}
+
+h3 {
+    color: gray;
+    margin-left: 40%;
+    font-family: yekan;
+}
+
+.input_1 {
+    width: 50%;
+    height: 38px;
+    box-shadow: 0 0 1px 1px #cbbdbd;
+    margin-left: 140px;
+    margin-top: 115px;
+    border-radius: 4px;
+    background: #f6f2f2;
+    overflow: hidden;
+}
+
+.input_1:hover {
+    background: #ded9d9;
+    transition: 0.9s;
+}
+
+.input_2 {
+    width: 50%;
+    height: 38px;
+    margin-top: 20px;
+    position: absolute;
+    box-shadow: 0 0 1px 1px #cbbdbd;
+    border-radius: 4px;
+    background: #f6f2f2;
+    overflow: hidden;
+    margin-left: 140px;
+}
+
+.input_2:hover {
+    background: #ded9d9;
+    transition: 0.9s;
+}
+
+input {
+    width: 90%;
+    height: 38px;
+    direction: rtl;
+    text-align: center;
+    font-family: yekan;
+}
+
+#user_login {
+    color: #716e6e;
+    font-size: 23px;
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+#user_password {
+    color: #716e6e;
+    font-size: 23px;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+input[type=password]:focus {
+    outline: none;
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+
+.btn_login {
+    width: 20%;
+    margin-top: 99px;
+    background: dodgerblue;
+    margin-left: 38%;
+    border-radius: 8px;
+    color: white;
+    font-family: yekan;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 0 0 2px 2px #847b7b;
+    height: 42px;
+}
+
+input[type=submit]:focus {
+    outline: none;
+}
+
+.btn_login:hover {
+    background: #907777;
+    transition: 0.9s;
+    text-align: -moz-center;
+    size: auto;
+}
+
+.check_box {
+    width: 17px;
+    position: absolute;
+    margin-top: 70px;
+    background: red;
+    margin-left: 47%;
+    top: 39%;
+}
+
+h4 {
+    direction: rtl;
+    position: absolute;
+    top: 55%;
+    margin-left: 59%;
+    font-family: yekan;
+    font-size: 15px;
+    color: gray;
+}
+
+h5 {
+    position: absolute;
+    direction: rtl;
+    margin-left: 35%;
+    top: 66%;
+    font-size: 17px;
+    color: rgb(29, 119, 236);
+}
+
+h5:hover {
+    border-bottom: 2px solid blue;
+    border-radius: 2px 3px;
+    color: blue;
+}
+
+#test {
+    direction: rtl;
+    color: rgb(29, 119, 236);
+    position: absolute;
+    margin-left: 54%;
+    margin-top: 28.8%;
+    font-size: 19px;
+    display: none;
+}
+
+#test:hover {
+    border-bottom: 1px solid blue;
+}
+
+h2 {
+    font-size: 17px;
+    font-family: yekan;
+    margin-left: 38px;
+    margin-top: 27px;
+}
+
+h2:hover {
+    border-bottom: 2px solid blue;
+    border-radius: 2px 3px;
+    color: blue;
+}
+
+.icon {
+    width: 40%;
+    height: 20px;
+    margin-left: 30%;
+    margin-top: 40px;
+    position: absolute;
+    border-radius: 8px;
+    box-shadow: 0 0 2px 2px white;
+}

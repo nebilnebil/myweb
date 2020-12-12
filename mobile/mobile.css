@@ -1,0 +1,502 @@
+/*import font farsi*/
+@media screen and  (max-width: 327px)  and(min-width: 0px){
+    body {
+        background-color: blue;
+    }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    body {
+        background-color: olive;
+    }
+}
+@font-face {
+    font-family: 'yekan';
+    src: url("../fonts/yekan.eot?#") format("embedded-opentype"), url("../fonts/yekan.ttf") format("truetype");
+}
+
+.font12 {
+    font-family: yekan;
+    font-size: 12px;
+}
+
+.font14 {
+    font: 14px yekan;
+}
+
+.font16 {
+    font: 16px yekan;
+}
+
+.font18 {
+    font: 18px yekan;
+}
+
+/*
+Css styles to  homes*/
+/* This stat to all rags none all styles**/
+
+* {
+    background: none;
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-family: yekan;
+}
+
+body {
+    direction: ltr;
+    width: 100%;
+    background: red;
+}
+
+/* screens all homes */
+
+.screen {
+    width: 98%;
+    height: 100vh;
+    background:red;
+    margin: 2px auto;
+}
+
+/*header bottom -1 to b div*/
+
+.home-b {
+
+    background:red;
+    height: 90px;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0 0 2px 2px white;
+
+}
+
+/*button login */
+
+.btn_1 {
+    background: dodgerblue;
+    width: 8%;
+    height: 48px;
+    margin-left: 10px;
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    box-shadow: 0 0 2px 2px white;
+    display: inline-block;
+    /*  float: right;*/
+    margin-right: 10px;
+    font-family: yekan;
+    text-align: center;
+}
+
+/* button registers*/
+
+.btn_2 {
+    background: dodgerblue;
+    width: 8%;
+    height: 48px;
+    margin-left: 10px;
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    box-shadow: 0 0 2px 2px white;
+    display: inline-block;
+    /*  float: right;*/
+    margin-right: 10px;
+    font-family: yekan;
+    text-align: center;
+}
+
+/* button click on mouse hovers*/
+
+.btn_1:hover {
+    color: greenyellow;
+    transition: 0.8s;
+    font-family: yekan;
+}
+
+/*button number 2 hover click*/
+
+.btn_2:hover {
+    color: #77ec08;
+    transition: 0.9s;
+    border: 1px solid black;
+    background: rgba(31, 84, 197, 0.548);
+}
+
+.btn_1:hover {
+    color: greenyellow;
+    transition: 0.9s;
+    border: 1px solid black;
+    background: rgba(31, 84, 197, 0.548);
+}
+
+
+button[type=button]:focus {
+    outline: none;
+}
+
+
+/* search input form to div */
+
+.search {
+    width: 90%;
+    height: 45px;
+    text-align: center;
+    background: white;
+    overflow: hidden;
+    margin-left: 49px;
+    border-radius: 8px;
+    margin-top: 0.4px;
+    font-family: yekan;
+}
+
+/*Search div tag*/
+
+.search-1 {
+    background: #0ad0d0;
+    width: 35%;
+    height: 45px;
+    margin-left: 35%;
+    position: absolute;
+    margin-bottom: -30px;
+    top: 25px;
+    border-radius: 8px;
+    border: 2px solid #1fc0db;
+    overflow: hidden;
+}
+
+/*Input   border */
+
+input[type=text]:focus {
+    outline: none;
+}
+
+/*
+h3 {
+color: black;
+margin-left: 140px;
+margin-top: 25px;
+font-size: 30px;
+display: inline-block;
+}
+*/
+/*This img tags style*/
+
+img {
+    width: 80px;
+    float: right;
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-right: 4px;
+    border: 1px solid white;
+}
+
+/*Search hover div */
+
+.search-1:hover {
+    background: #01c9c9;
+    border: 2px solid #13cbcb;
+
+    transition: 0.9s;
+}
+
+/*a tags all styles */
+a {
+    text-decoration: none;
+    color: white;
+    font-family: yekan;
+    display: inline-block;
+}
+
+/*logo pages hover click*/
+img:hover {
+    width: 75px;
+    margin-bottom: 25px;
+    transition: 0.6s;
+}
+
+/*name team to header*/
+
+.team {
+    margin-left: 740px;
+    color: black;
+    font-size: 26px;
+    font-family: cursive;
+    top: 30px;
+    position: absolute;
+}
+
+/*team hover click change background*/
+
+.team:hover {
+    height: 40px;
+    border-radius: 8px;
+    transition: 0.7s;
+}
+
+/*this tag b bold font */
+
+b {
+    color: red;
+}
+
+/*class b_ font bold and changed color  for green */
+
+.b_1 {
+    color: green;
+}
+
+/*
+
+#code-1 {
+    color: black;
+    font-size: 30px;
+    margin-left: 73%;
+    position: absolute;
+    top: 25PX;
+    background: red;
+}
+*/
+/*this tag h_addr 1*/
+
+.header-1 {
+    width: 100%;
+    height: 400px;
+    background-size: 100%;
+    margin-top: 8px;
+}
+
+/*this animations to option webs*/
+
+.screen_2 {
+
+    width: 99%;
+    height: 70px;
+
+    margin: 5px auto;
+    position: absolute;
+
+
+}
+
+/*this screen  hover animations*/
+
+.screen_2:hover {
+    box-shadow: 0px 1px 1px 0px #fffcfc;
+    transition: 0.9s;
+
+}
+
+/*tag ul li style*/
+ul li {
+    list-style-type: none;
+    float: right;
+    padding: 5px;
+    font-family: yekan;
+    font-size: 25px;
+
+    padding-right: 6px;
+    margin-right: 10px;
+    color: dodgerblue;
+    border-radius: 4px;
+    margin-top: 4px;
+}
+
+ul li a {
+    color: #090808;
+    font-size: 20px;
+    font-family: yekan;
+}
+
+ul li a:hover {
+    color: white;
+    transition: 0.8s;
+}
+
+ul li:hover {
+    background: dodgerblue;
+    margin-top: 4px;
+    transition: 0.9s;
+}
+
+ul li a {
+    margin-left: 50px;
+}
+
+ul {
+    margin-right: 40px;
+}
+
+/*ul tag style closed this len*/
+
+#logo {
+    font-size: 28px;
+    margin-top: 9px;
+    margin-right: 6px;
+}
+
+/*programing click  options class name .click*/
+.click {
+
+    margin-top: 12px;
+    display: none;
+}
+
+/*
+.code_p:hover .click{
+    display: block;
+    list-style-type: block;
+    position: absolute;
+    background:rgb(155, 139, 139);
+    padding:4px;
+    font-size: 16px;
+}*/
+/*This slider class name and tag section*/
+.slider_0 {
+    width: 95%;
+    height: 400px;
+    position: absolute;
+    top: 180px;
+    margin-left: 1.5%;
+    overflow: hidden;
+}
+
+/*img slider to section tags  */
+.slider_img {
+    width: 99.2%;
+    height: 405px;
+    border-radius: 0px;
+}
+
+/*This slider hover */
+.slider_img:hover {
+    width: 99.2%;
+    box-shadow: 0 0 5px 5px white;
+}
+
+/*this len tag div to  slider */
+.slider_1 {
+    width: 100%;
+    height: 7px;
+    background: rgba(128, 46, 46, 0.568);
+    position: absolute;
+    margin-top: 396px;
+    display: none;
+}
+
+.slider_0:hover .slider_1 {
+    display: block;
+    transition: 0.7s;
+}
+
+.next_1 {
+    position: absolute;
+    margin-left: 25px;;
+    margin-top: 200px;
+    width: 30px;
+    background: rgba(138, 151, 165, 0.418);
+    height: 32px;
+    color: floralwhite;
+    font-size: 15px;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 0 0 5px 5px white;
+    display: none;
+}
+
+.next_1:hover {
+    background: dodgerblue;
+    color: #6ee00a;
+    font-size: 18px;
+}
+
+.slider_0:hover .next_1 {
+    display: block;
+    transition: 0.8s;
+}
+
+.next_2 {
+    position: absolute;
+    margin-left: 96%;
+    margin-top: 200px;
+    width: 30px;
+    background: rgba(138, 151, 165, 0.418);
+    height: 32px;
+    color: floralwhite;
+    font-size: 15px;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 0 0 5px 5px white;
+    display: none;
+}
+
+.next_2:hover {
+    background: dodgerblue;
+    color: #6ee00a;
+    font-size: 18px;
+}
+
+.slider_0:hover .next_2 {
+    display: block;
+    transition: 0.8s;
+}
+
+.back_a {
+    width: 100%;
+    position: absolute;
+    height: 400px;
+    background: rgba(231, 229, 229, 0.466);
+    display: none;
+}
+
+.slider_0:hover .back_a {
+    display: block;
+    transition: 0.9s;
+}
+
+/*stared f lines
+this button web */
+.fot_1 {
+    background: red;
+    width: 98%;
+    height: 300px;
+    margin: 100px auto;
+}
+
+.m_0 {
+    width: 400px;
+    background: dodgerblue;
+    height: 250px;
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 10px;
+    overflow: hidden;
+
+}
+
+.m_1 {
+    width: 440px;
+    background: dodgerblue;
+    height: 250px;
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 440px;
+}
+
+.m_3 {
+    width: 400px;
+    background: dodgerblue;
+    height: 250px;
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 912px
+}
+
+b_3 {
+    color: #090808;
+    font-family: yekan;
+}
